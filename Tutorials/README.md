@@ -20,10 +20,21 @@ Read them in order the first time. Pages 3 to 6 follow the same order as the tab
 
 ## Languages
 
-| Language | |
+Every page exists in all 11 languages with **identical filenames** — only the body text is translated, never the path.
+
+| Language | Start here |
 |---|---|
-| English | this index · [`en/`](en/) |
-| 简体中文 (Simplified Chinese) | [README_zh.md](README_zh.md) · [`zh-hans/`](zh-hans/) |
+| English | [01-overview.md](en/01-overview.md) |
+| 简体中文 | [01-overview.md](zh-hans/01-overview.md) |
+| 繁體中文 | [01-overview.md](zh-hant/01-overview.md) |
+| Deutsch | [01-overview.md](de/01-overview.md) |
+| Español | [01-overview.md](es/01-overview.md) |
+| Français | [01-overview.md](fr/01-overview.md) |
+| Italiano | [01-overview.md](it/01-overview.md) |
+| 日本語 | [01-overview.md](ja/01-overview.md) |
+| 한국어 | [01-overview.md](ko/01-overview.md) |
+| Português (BR) | [01-overview.md](pt-br/01-overview.md) |
+| Português (PT) | [01-overview.md](pt-pt/01-overview.md) |
 
 ## Related
 

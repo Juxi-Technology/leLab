@@ -1,4 +1,4 @@
-English | [简体中文](../zh-hans/07-troubleshooting.md)
+English | [简体中文](../zh-hans/07-troubleshooting.md) | [繁體中文](../zh-hant/07-troubleshooting.md) | [Deutsch](../de/07-troubleshooting.md) | [Español](../es/07-troubleshooting.md) | [Français](../fr/07-troubleshooting.md) | [Italiano](../it/07-troubleshooting.md) | [日本語](../ja/07-troubleshooting.md) | [한국어](../ko/07-troubleshooting.md) | [Português (BR)](../pt-br/07-troubleshooting.md) | [Português (PT)](../pt-pt/07-troubleshooting.md)
 
 # 7 · Troubleshooting
 

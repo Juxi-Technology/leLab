@@ -1,4 +1,4 @@
-English | [简体中文](../zh-hans/05-record-dataset.md)
+English | [简体中文](../zh-hans/05-record-dataset.md) | [繁體中文](../zh-hant/05-record-dataset.md) | [Deutsch](../de/05-record-dataset.md) | [Español](../es/05-record-dataset.md) | [Français](../fr/05-record-dataset.md) | [Italiano](../it/05-record-dataset.md) | [日本語](../ja/05-record-dataset.md) | [한국어](../ko/05-record-dataset.md) | [Português (BR)](../pt-br/05-record-dataset.md) | [Português (PT)](../pt-pt/05-record-dataset.md)
 
 # 5 · Record a dataset
 

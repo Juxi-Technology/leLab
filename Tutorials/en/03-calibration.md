@@ -1,4 +1,4 @@
-English | [简体中文](../zh-hans/03-calibration.md)
+English | [简体中文](../zh-hans/03-calibration.md) | [繁體中文](../zh-hant/03-calibration.md) | [Deutsch](../de/03-calibration.md) | [Español](../es/03-calibration.md) | [Français](../fr/03-calibration.md) | [Italiano](../it/03-calibration.md) | [日本語](../ja/03-calibration.md) | [한국어](../ko/03-calibration.md) | [Português (BR)](../pt-br/03-calibration.md) | [Português (PT)](../pt-pt/03-calibration.md)
 
 # 3 · Connect and calibrate
 

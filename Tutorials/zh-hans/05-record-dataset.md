@@ -1,4 +1,4 @@
-[English](../en/05-record-dataset.md) | 简体中文
+[English](../en/05-record-dataset.md) | 简体中文 | [繁體中文](../zh-hant/05-record-dataset.md) | [Deutsch](../de/05-record-dataset.md) | [Español](../es/05-record-dataset.md) | [Français](../fr/05-record-dataset.md) | [Italiano](../it/05-record-dataset.md) | [日本語](../ja/05-record-dataset.md) | [한국어](../ko/05-record-dataset.md) | [Português (BR)](../pt-br/05-record-dataset.md) | [Português (PT)](../pt-pt/05-record-dataset.md)
 
 # 5 · 录制数据集
 
@@ -13,7 +13,7 @@
 
 | 项目 | 填什么 |
 |---|---|
-| **数据集名**（`repo_id`） | `你的名字/任务名`，比如 `juxi/pick-up-the-cube`。以后要上传的话，前面那段必须是你的 Hugging Face 用户名 |
+| **数据集名**（`repo_id`） | `your-name/task-name`，比如 `juxi/pick-up-the-cube`。以后要上传的话，前面的 `name/` 必须是你的 Hugging Face 用户名 |
 | **任务描述** | 一句话，比如 `pick up the cube and drop it in the box`。这是策略的条件输入 |
 | **Episodes** | 录多少个演示，见下 |
 | **摄像头** | 用哪几个摄像头，以及分辨率和帧率 |

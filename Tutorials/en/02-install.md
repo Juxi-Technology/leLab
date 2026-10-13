@@ -1,4 +1,4 @@
-English | [简体中文](../zh-hans/02-install.md)
+English | [简体中文](../zh-hans/02-install.md) | [繁體中文](../zh-hant/02-install.md) | [Deutsch](../de/02-install.md) | [Español](../es/02-install.md) | [Français](../fr/02-install.md) | [Italiano](../it/02-install.md) | [日本語](../ja/02-install.md) | [한국어](../ko/02-install.md) | [Português (BR)](../pt-br/02-install.md) | [Português (PT)](../pt-pt/02-install.md)
 
 # 2 · Install and run
 

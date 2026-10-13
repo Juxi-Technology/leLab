@@ -1,4 +1,4 @@
-[English](../en/06-train-and-inference.md) | 简体中文
+[English](../en/06-train-and-inference.md) | 简体中文 | [繁體中文](../zh-hant/06-train-and-inference.md) | [Deutsch](../de/06-train-and-inference.md) | [Español](../es/06-train-and-inference.md) | [Français](../fr/06-train-and-inference.md) | [Italiano](../it/06-train-and-inference.md) | [日本語](../ja/06-train-and-inference.md) | [한국어](../ko/06-train-and-inference.md) | [Português (BR)](../pt-br/06-train-and-inference.md) | [Português (PT)](../pt-pt/06-train-and-inference.md)
 
 # 6 · 训练与推理
 

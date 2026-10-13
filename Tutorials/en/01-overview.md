@@ -1,4 +1,4 @@
-English | [简体中文](../zh-hans/01-overview.md)
+English | [简体中文](../zh-hans/01-overview.md) | [繁體中文](../zh-hant/01-overview.md) | [Deutsch](../de/01-overview.md) | [Español](../es/01-overview.md) | [Français](../fr/01-overview.md) | [Italiano](../it/01-overview.md) | [日本語](../ja/01-overview.md) | [한국어](../ko/01-overview.md) | [Português (BR)](../pt-br/01-overview.md) | [Português (PT)](../pt-pt/01-overview.md)
 
 # 1 · Overview
 
