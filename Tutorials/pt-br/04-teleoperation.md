@@ -20,12 +20,12 @@ A aba transmite as posições das juntas enquanto roda. Aperte parar quando term
 
 ## O que verificar
 
-| Verificação | Por quê |
-|---|---|
-| O follower acompanha suavemente, sem atraso nem trepidação | Um acompanhamento ruim vira dados de treinamento inutilizáveis |
-| O alcance do follower corresponde ao do leader | Parar antes ou bater em um limite significa que uma junta está descalibrada — volte à [página 3](03-calibration.md) |
-| Os dois braços se movem na mesma direção | Um follower invertido significa que uma junta foi calibrada na direção errada |
-| Nada colide nos extremos | Passe por toda a faixa que você pretende usar |
+| Verificação                                                | Por quê                                                                                                             |
+| ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| O follower acompanha suavemente, sem atraso nem trepidação | Um acompanhamento ruim vira dados de treinamento inutilizáveis                                                      |
+| O alcance do follower corresponde ao do leader             | Parar antes ou bater em um limite significa que uma junta está descalibrada — volte à [página 3](03-calibration.md) |
+| Os dois braços se movem na mesma direção                   | Um follower invertido significa que uma junta foi calibrada na direção errada                                       |
+| Nada colide nos extremos                                   | Passe por toda a faixa que você pretende usar                                                                       |
 
 Se o movimento estiver errado, mas não quebrado — deslocado, uma junta invertida, alcance reduzido — recalibre em vez de compensar. Um braço descalibrado produz um dataset que treina a policy a fazer a coisa errada.
 

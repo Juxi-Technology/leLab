@@ -8,15 +8,15 @@ LeLab 是一個網頁應用程式，把 LeRobot 的工作流程——校準、�
 
 ## 能做什麼
 
-| 頁面 | 功能 |
-|---|---|
-| **Calibration 校準** | 兩條手臂的引導式校準 |
-| **Teleoperation 遙操作** | 移動主臂；從臂跟隨，並即時串流關節位置 |
-| **Recording 錄製** | 搭配攝影機，把示範錄成 LeRobotDataset |
-| **Datasets 資料集** | 逐格瀏覽磁碟上的 episode，附關節運動軌跡 |
-| **Training 訓練** | 啟動 LeRobot 訓練任務並觀看日誌 |
-| **Inference 推論** | 在從臂上執行訓練好的策略 |
-| **Upload 上傳** | 把資料集推送到 Hugging Face Hub |
+| 頁面                     | 功能                                     |
+| ------------------------ | ---------------------------------------- |
+| **Calibration 校準**     | 兩條手臂的引導式校準                     |
+| **Teleoperation 遙操作** | 移動主臂；從臂跟隨，並即時串流關節位置   |
+| **Recording 錄製**       | 搭配攝影機，把示範錄成 LeRobotDataset    |
+| **Datasets 資料集**      | 逐格瀏覽磁碟上的 episode，附關節運動軌跡 |
+| **Training 訓練**        | 啟動 LeRobot 訓練任務並觀看日誌          |
+| **Inference 推論**       | 在從臂上執行訓練好的策略                 |
+| **Upload 上傳**          | 把資料集推送到 Hugging Face Hub          |
 
 ## LeLab 與 LeRobot
 
@@ -27,13 +27,13 @@ LeRobot 是那套函式庫——機械手臂驅動、資料集格式、訓練程
 
 ## 需求
 
-| | |
-|---|---|
+|          |                                        |
+| -------- | -------------------------------------- |
 | 機械手臂 | **SO-101 主臂 + 從臂**——唯一支援的配置 |
-| 電腦 | Linux、macOS 或 Windows |
-| Python | **3.12 或更新版本** |
-| Node.js | 22——僅 `lelab --dev` 需要 |
-| USB | 兩個空閒埠，每條手臂一個 |
+| 電腦     | Linux、macOS 或 Windows                |
+| Python   | **3.12 或更新版本**                    |
+| Node.js  | 22——僅 `lelab --dev` 需要              |
+| USB      | 兩個空閒埠，每條手臂一個               |
 
 校準、遙操作與錄製在筆電上就能跑。訓練是吃重的那一步，LeLab 可以改在 Hugging Face Hub 上執行——見[第 6 篇](06-train-and-inference.md)。
 
@@ -41,12 +41,12 @@ LeRobot 是那套函式庫——機械手臂驅動、資料集格式、訓練程
 
 在 `~/.cache/huggingface/lerobot/` 底下：
 
-| 路徑 | 內容 |
-|---|---|
-| `calibration/teleoperators/so101_leader/*.json` | 主臂校準檔 |
-| `calibration/robots/so101_follower/*.json` | 從臂校準檔 |
-| `ports/leader_port.txt` · `ports/follower_port.txt` | 上次使用的序列埠 |
-| `saved_configs/*.txt` | 上次選用的校準設定檔 |
+| 路徑                                                | 內容                 |
+| --------------------------------------------------- | -------------------- |
+| `calibration/teleoperators/so101_leader/*.json`     | 主臂校準檔           |
+| `calibration/robots/so101_follower/*.json`          | 從臂校準檔           |
+| `ports/leader_port.txt` · `ports/follower_port.txt` | 上次使用的序列埠     |
+| `saved_configs/*.txt`                               | 上次選用的校準設定檔 |
 
 資料集放在 LeRobot 放的位置——預設是同一棵目錄樹。
 
@@ -56,10 +56,10 @@ LeRobot 是那套函式庫——機械手臂驅動、資料集格式、訓練程
 
 LeRobot 依角色為手臂命名；LeLab 的 API 對同樣兩條手臂用了另一套名稱：
 
-| 你說 | LeRobot / LeLab 說 |
-|---|---|
-| 你用手移動的那條手臂 | **leader** · **teleop** |
-| 跟隨的那條手臂 | **follower** · **robot** |
+| 你說                 | LeRobot / LeLab 說       |
+| -------------------- | ------------------------ |
+| 你用手移動的那條手臂 | **leader** · **teleop**  |
+| 跟隨的那條手臂       | **follower** · **robot** |
 
 ---
 

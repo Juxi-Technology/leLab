@@ -20,12 +20,12 @@ Der Tab streamt die Gelenkpositionen, während er läuft. Drücken Sie Stopp, we
 
 ## Was zu prüfen ist
 
-| Prüfung | Warum |
-|---|---|
-| Der follower folgt flüssig, ohne Verzögerung oder Zittern | Eine grobe Nachführung ergibt unbrauchbare Trainingsdaten |
-| Der Bereich des follower entspricht dem des leader | Zu früh anhalten oder an einen Anschlag stoßen bedeutet, dass ein Gelenk falsch kalibriert ist — gehen Sie zurück zu [Seite 3](03-calibration.md) |
-| Beide Arme bewegen sich in dieselbe Richtung | Ein invertierter follower bedeutet, dass ein Gelenk in die falsche Richtung kalibriert wurde |
-| An den Extremen kollidiert nichts | Fahren Sie den gesamten Bereich ab, den Sie nutzen wollen |
+| Prüfung                                                   | Warum                                                                                                                                             |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Der follower folgt flüssig, ohne Verzögerung oder Zittern | Eine grobe Nachführung ergibt unbrauchbare Trainingsdaten                                                                                         |
+| Der Bereich des follower entspricht dem des leader        | Zu früh anhalten oder an einen Anschlag stoßen bedeutet, dass ein Gelenk falsch kalibriert ist — gehen Sie zurück zu [Seite 3](03-calibration.md) |
+| Beide Arme bewegen sich in dieselbe Richtung              | Ein invertierter follower bedeutet, dass ein Gelenk in die falsche Richtung kalibriert wurde                                                      |
+| An den Extremen kollidiert nichts                         | Fahren Sie den gesamten Bereich ab, den Sie nutzen wollen                                                                                         |
 
 Wenn die Bewegung falsch, aber nicht kaputt ist — Versatz, ein invertiertes Gelenk, zu kurzer Weg — kalibrieren Sie neu, statt zu kompensieren. Ein falsch kalibrierter Arm erzeugt ein Dataset, das die Policy das Falsche lehrt.
 

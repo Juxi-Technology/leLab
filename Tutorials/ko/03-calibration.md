@@ -23,10 +23,10 @@ sudo usermod -aG dialout $USER
 
 ## 어느 팔이 어느 팔인가
 
-| 팔 | LeRobot 이름 | LeLab에서 부르는 이름 |
-|---|---|---|
-| 손으로 움직이는 팔 | `so101_leader` | **teleop** |
-| 따라오는 팔 | `so101_follower` | **robot** |
+| 팔                 | LeRobot 이름     | LeLab에서 부르는 이름 |
+| ------------------ | ---------------- | --------------------- |
+| 손으로 움직이는 팔 | `so101_leader`   | **teleop**            |
+| 따라오는 팔        | `so101_follower` | **robot**             |
 
 리더를 먼저 캘리브레이션하십시오. 둘을 혼동하는 것이 방금 캘리브레이션한 팔이 이상하게 동작하는 흔한 이유입니다.
 
@@ -59,12 +59,12 @@ sudo usermod -aG dialout $USER
 
 ## 저장되는 항목
 
-| 파일 | 내용 |
-|---|---|
-| `~/.cache/huggingface/lerobot/calibration/teleoperators/so101_leader/*.json` | 리더 프로필 |
-| `~/.cache/huggingface/lerobot/calibration/robots/so101_follower/*.json` | 팔로워 프로필 |
-| `~/.cache/huggingface/lerobot/ports/leader_port.txt` | 리더 시리얼 포트 |
-| `~/.cache/huggingface/lerobot/ports/follower_port.txt` | 팔로워 시리얼 포트 |
+| 파일                                                                         | 내용               |
+| ---------------------------------------------------------------------------- | ------------------ |
+| `~/.cache/huggingface/lerobot/calibration/teleoperators/so101_leader/*.json` | 리더 프로필        |
+| `~/.cache/huggingface/lerobot/calibration/robots/so101_follower/*.json`      | 팔로워 프로필      |
+| `~/.cache/huggingface/lerobot/ports/leader_port.txt`                         | 리더 시리얼 포트   |
+| `~/.cache/huggingface/lerobot/ports/follower_port.txt`                       | 팔로워 시리얼 포트 |
 
 이 파일들은 `~/.cache/` 아래에 있으므로 캐시 정리 도구가 삭제할 수 있습니다. 캘리브레이션한 팔이 다시 캘리브레이션을 요구하면 여기를 확인하십시오 — [문제 해결](07-troubleshooting.md)을 참조하십시오.
 

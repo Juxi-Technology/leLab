@@ -20,12 +20,12 @@ O separador transmite as posições das articulações enquanto decorre. Carregu
 
 ## O que verificar
 
-| Verificação | Porquê |
-|---|---|
-| O follower segue com suavidade, sem atraso nem tremores | Um seguimento irregular dá dados de treino inutilizáveis |
-| O alcance do follower corresponde ao do leader | Ficar aquém ou bater num limite significa que uma articulação está mal calibrada — volte à [página 3](03-calibration.md) |
-| Os dois braços movem-se no mesmo sentido | Um follower invertido significa que uma articulação foi calibrada no sentido errado |
-| Nada colide nos extremos | Percorra todo o curso que pretende utilizar |
+| Verificação                                             | Porquê                                                                                                                   |
+| ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| O follower segue com suavidade, sem atraso nem tremores | Um seguimento irregular dá dados de treino inutilizáveis                                                                 |
+| O alcance do follower corresponde ao do leader          | Ficar aquém ou bater num limite significa que uma articulação está mal calibrada — volte à [página 3](03-calibration.md) |
+| Os dois braços movem-se no mesmo sentido                | Um follower invertido significa que uma articulação foi calibrada no sentido errado                                      |
+| Nada colide nos extremos                                | Percorra todo o curso que pretende utilizar                                                                              |
 
 Se o movimento estiver errado mas não avariado — desviado, uma articulação invertida, curso insuficiente — recalibre em vez de compensar. Um braço mal calibrado produz um conjunto de dados que treina a política para fazer a coisa errada.
 

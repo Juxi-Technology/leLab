@@ -23,10 +23,10 @@ sudo usermod -aG dialout $USER
 
 ## 哪條手臂是哪條
 
-| 手臂 | LeRobot 名稱 | LeLab 的稱呼 |
-|---|---|---|
-| 你用手移動的那條 | `so101_leader` | **teleop** |
-| 跟隨的那條 | `so101_follower` | **robot** |
+| 手臂             | LeRobot 名稱     | LeLab 的稱呼 |
+| ---------------- | ---------------- | ------------ |
+| 你用手移動的那條 | `so101_leader`   | **teleop**   |
+| 跟隨的那條       | `so101_follower` | **robot**    |
 
 先校準主臂。把兩者搞混，是剛校準好的手臂行為異常的常見原因。
 
@@ -59,12 +59,12 @@ sudo usermod -aG dialout $USER
 
 ## 儲存了什麼
 
-| 檔案 | 內容 |
-|---|---|
+| 檔案                                                                         | 內容       |
+| ---------------------------------------------------------------------------- | ---------- |
 | `~/.cache/huggingface/lerobot/calibration/teleoperators/so101_leader/*.json` | 主臂設定檔 |
-| `~/.cache/huggingface/lerobot/calibration/robots/so101_follower/*.json` | 從臂設定檔 |
-| `~/.cache/huggingface/lerobot/ports/leader_port.txt` | 主臂序列埠 |
-| `~/.cache/huggingface/lerobot/ports/follower_port.txt` | 從臂序列埠 |
+| `~/.cache/huggingface/lerobot/calibration/robots/so101_follower/*.json`      | 從臂設定檔 |
+| `~/.cache/huggingface/lerobot/ports/leader_port.txt`                         | 主臂序列埠 |
+| `~/.cache/huggingface/lerobot/ports/follower_port.txt`                       | 從臂序列埠 |
 
 這些位於 `~/.cache/` 底下，因此清理快取的工具可能會刪掉它們。若已校準的手臂又要求重新校準，請檢查這裡——見[疑難排解](07-troubleshooting.md)。
 

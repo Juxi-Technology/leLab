@@ -20,12 +20,12 @@ La pestaña transmite las posiciones articulares mientras se ejecuta. Pulsa dete
 
 ## Qué comprobar
 
-| Comprobación | Por qué |
-|---|---|
-| El follower sigue con suavidad, sin retraso ni vibración | Un seguimiento tosco se convierte en datos de entrenamiento inutilizables |
-| El rango del follower coincide con el del leader | Quedarse corto o tocar un límite significa que una articulación está mal calibrada — vuelve a la [página 3](03-calibration.md) |
-| Ambos brazos se mueven en la misma dirección | Un follower invertido significa que una articulación se calibró en la dirección equivocada |
-| Nada choca en los extremos | Recorre todo el rango que piensas usar |
+| Comprobación                                             | Por qué                                                                                                                        |
+| -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| El follower sigue con suavidad, sin retraso ni vibración | Un seguimiento tosco se convierte en datos de entrenamiento inutilizables                                                      |
+| El rango del follower coincide con el del leader         | Quedarse corto o tocar un límite significa que una articulación está mal calibrada — vuelve a la [página 3](03-calibration.md) |
+| Ambos brazos se mueven en la misma dirección             | Un follower invertido significa que una articulación se calibró en la dirección equivocada                                     |
+| Nada choca en los extremos                               | Recorre todo el rango que piensas usar                                                                                         |
 
 Si el movimiento es incorrecto pero no está roto — desfase, una articulación invertida, recorrido corto — recalibra en lugar de compensar. Un brazo mal calibrado produce un dataset que entrena a la política para hacer lo incorrecto.
 

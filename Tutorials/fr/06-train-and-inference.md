@@ -11,22 +11,22 @@ L'entraînement transforme le jeu de données en une **policy** — un modèle q
 
 Ouvrez l'onglet **Training** et choisissez :
 
-| Choix | Remarques |
-|---|---|
-| **Jeu de données** | Un jeu de données local, ou un provenant du Hub |
-| **Type de policy** | **ACT** est le premier choix habituel pour un seul bras. Diffusion Policy, SmolVLA et la famille π₀ sont également disponibles |
-| **Où exécuter** | Cette machine, ou une tâche cloud Hugging Face |
-| **Durée d'entraînement** | Nombre de pas. Surveillez la loss plutôt que de supposer que plus vaut mieux |
+| Choix                    | Remarques                                                                                                                      |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| **Jeu de données**       | Un jeu de données local, ou un provenant du Hub                                                                                |
+| **Type de policy**       | **ACT** est le premier choix habituel pour un seul bras. Diffusion Policy, SmolVLA et la famille π₀ sont également disponibles |
+| **Où exécuter**          | Cette machine, ou une tâche cloud Hugging Face                                                                                 |
+| **Durée d'entraînement** | Nombre de pas. Surveillez la loss plutôt que de supposer que plus vaut mieux                                                   |
 
 L'onglet diffuse le journal d'entraînement et affiche les checkpoints au fur et à mesure de leur écriture.
 
 ### Local ou cloud
 
-| | Local | Tâche cloud Hugging Face |
-|---|---|---|
-| Nécessite | Un GPU sur cette machine | Un compte Hugging Face avec accès |
-| Vitesse | Dépend de votre GPU | Machine fixe, choisie par tâche |
-| Idéal pour | Petits jeux de données, expérimentations | Exécutions plus longues |
+|            | Local                                    | Tâche cloud Hugging Face          |
+| ---------- | ---------------------------------------- | --------------------------------- |
+| Nécessite  | Un GPU sur cette machine                 | Un compte Hugging Face avec accès |
+| Vitesse    | Dépend de votre GPU                      | Machine fixe, choisie par tâche   |
+| Idéal pour | Petits jeux de données, expérimentations | Exécutions plus longues           |
 
 L'option cloud est ce qui permet à un ordinateur portable de suffire pour le reste du flux de travail : enregistrer en local, entraîner à distance.
 

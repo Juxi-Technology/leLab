@@ -11,12 +11,12 @@ Un jeu de données est un ensemble d'**épisodes**, chacun étant une démonstra
 
 Ouvrez l'onglet **Recording** et renseignez :
 
-| Champ | Ce qu'il faut y mettre |
-|---|---|
+| Champ                                 | Ce qu'il faut y mettre                                                                                                                                     |
+| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Nom du jeu de données** (`repo_id`) | `your-name/task-name`, par ex. `juxi/pick-up-the-cube`. La partie `name/` doit être votre nom d'utilisateur Hugging Face si vous prévoyez de le téléverser |
-| **Description de la tâche** | Une phrase, par ex. `pick up the cube and drop it in the box`. C'est le texte sur lequel la policy est conditionnée |
-| **Épisodes** | Combien de démonstrations — voir ci-dessous |
-| **Caméras** | Quelles caméras configurées inclure, et à quelle résolution et fréquence d'images |
+| **Description de la tâche**           | Une phrase, par ex. `pick up the cube and drop it in the box`. C'est le texte sur lequel la policy est conditionnée                                        |
+| **Épisodes**                          | Combien de démonstrations — voir ci-dessous                                                                                                                |
+| **Caméras**                           | Quelles caméras configurées inclure, et à quelle résolution et fréquence d'images                                                                          |
 
 ### Combien d'épisodes
 
@@ -26,10 +26,10 @@ La cohérence compte plus que le nombre : la même position de départ, le mêm
 
 ## Pendant l'enregistrement
 
-| Touche | Action |
-|---|---|
-| `SPACE` ou `→` | Termine l'épisode en cours, démarre le suivant |
-| `DEL` ou `←` | Abandonne l'épisode qui vient d'être enregistré et le refait |
+| Touche         | Action                                                       |
+| -------------- | ------------------------------------------------------------ |
+| `SPACE` ou `→` | Termine l'épisode en cours, démarre le suivant               |
+| `DEL` ou `←`   | Abandonne l'épisode qui vient d'être enregistré et le refait |
 
 L'onglet affiche un compteur d'épisodes et un compteur de sessions.
 

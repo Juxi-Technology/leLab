@@ -20,12 +20,12 @@ La scheda trasmette le posizioni dei giunti mentre è in esecuzione. Premi stop 
 
 ## Cosa controllare
 
-| Controllo | Perché |
-|---|---|
-| Il follower segue in modo fluido, senza ritardo o tremolio | Un inseguimento approssimativo diventa dati di addestramento inutilizzabili |
-| L'escursione del follower corrisponde a quella del leader | Fermarsi prima o toccare un limite significa che un giunto è mal calibrato — torna alla [pagina 3](03-calibration.md) |
-| Entrambe le braccia si muovono nella stessa direzione | Un follower invertito significa che un giunto è stato calibrato nella direzione sbagliata |
-| Niente va in collisione agli estremi | Muoviti su tutta l'escursione che prevedi di usare |
+| Controllo                                                  | Perché                                                                                                                |
+| ---------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Il follower segue in modo fluido, senza ritardo o tremolio | Un inseguimento approssimativo diventa dati di addestramento inutilizzabili                                           |
+| L'escursione del follower corrisponde a quella del leader  | Fermarsi prima o toccare un limite significa che un giunto è mal calibrato — torna alla [pagina 3](03-calibration.md) |
+| Entrambe le braccia si muovono nella stessa direzione      | Un follower invertito significa che un giunto è stato calibrato nella direzione sbagliata                             |
+| Niente va in collisione agli estremi                       | Muoviti su tutta l'escursione che prevedi di usare                                                                    |
 
 Se il movimento è sbagliato ma non rotto — offset, un giunto invertito, escursione ridotta — ricalibra invece di compensare. Un braccio mal calibrato produce un dataset che addestra la policy a fare la cosa sbagliata.
 

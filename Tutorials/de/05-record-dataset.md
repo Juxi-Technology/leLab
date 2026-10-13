@@ -11,12 +11,12 @@ Ein Dataset ist eine Sammlung von **Episoden**, jede eine einzelne Demonstration
 
 Öffnen Sie den Tab **Recording** und füllen Sie aus:
 
-| Feld | Was dort hinein gehört |
-|---|---|
+| Feld                         | Was dort hinein gehört                                                                                                                    |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | **Dataset-Name** (`repo_id`) | `your-name/task-name`, z. B. `juxi/pick-up-the-cube`. Der Teil `name/` muss Ihr Hugging-Face-Benutzername sein, wenn Sie hochladen wollen |
-| **Task-Beschreibung** | Ein Satz, z. B. `pick up the cube and drop it in the box`. Das ist der Text, auf den die Policy konditioniert wird |
-| **Episoden** | Wie viele Demonstrationen — siehe unten |
-| **Kameras** | Welche konfigurierten Kameras enthalten sein sollen, und mit welcher Auflösung und Bildrate |
+| **Task-Beschreibung**        | Ein Satz, z. B. `pick up the cube and drop it in the box`. Das ist der Text, auf den die Policy konditioniert wird                        |
+| **Episoden**                 | Wie viele Demonstrationen — siehe unten                                                                                                   |
+| **Kameras**                  | Welche konfigurierten Kameras enthalten sein sollen, und mit welcher Auflösung und Bildrate                                               |
 
 ### Wie viele Episoden
 
@@ -26,10 +26,10 @@ Konsistenz zählt mehr als die Anzahl: dieselbe Startposition, derselbe Kamerabi
 
 ## Während der Aufzeichnung
 
-| Taste | Aktion |
-|---|---|
-| `SPACE` oder `→` | Die aktuelle Episode beenden, die nächste starten |
-| `DEL` oder `←` | Die gerade aufgezeichnete Episode verwerfen und wiederholen |
+| Taste            | Aktion                                                      |
+| ---------------- | ----------------------------------------------------------- |
+| `SPACE` oder `→` | Die aktuelle Episode beenden, die nächste starten           |
+| `DEL` oder `←`   | Die gerade aufgezeichnete Episode verwerfen und wiederholen |
 
 Der Tab zeigt einen Episodenzähler und einen Sitzungszähler.
 

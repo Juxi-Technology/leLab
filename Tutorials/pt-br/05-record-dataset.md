@@ -11,12 +11,12 @@ Um dataset é uma coleção de **episódios**, cada um sendo uma única demonstr
 
 Abra a aba **Recording** e preencha:
 
-| Campo | O que colocar |
-|---|---|
+| Campo                           | O que colocar                                                                                                                                    |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Nome do dataset** (`repo_id`) | `your-name/task-name`, por exemplo `juxi/pick-up-the-cube`. A parte `name/` deve ser seu nome de usuário da Hugging Face se você pretende enviar |
-| **Descrição da tarefa** | Uma frase, por exemplo `pick up the cube and drop it in the box`. É o texto no qual a policy é condicionada |
-| **Episódios** | Quantas demonstrações — veja abaixo |
-| **Câmeras** | Quais câmeras configuradas incluir, e em que resolução e taxa de quadros |
+| **Descrição da tarefa**         | Uma frase, por exemplo `pick up the cube and drop it in the box`. É o texto no qual a policy é condicionada                                      |
+| **Episódios**                   | Quantas demonstrações — veja abaixo                                                                                                              |
+| **Câmeras**                     | Quais câmeras configuradas incluir, e em que resolução e taxa de quadros                                                                         |
 
 ### Quantos episódios
 
@@ -26,10 +26,10 @@ A consistência importa mais que a quantidade: a mesma posição inicial, o mesm
 
 ## Durante a gravação
 
-| Tecla | Ação |
-|---|---|
-| `SPACE` ou `→` | Encerra o episódio atual, inicia o próximo |
-| `DEL` ou `←` | Descarta o episódio recém-gravado e o refaz |
+| Tecla          | Ação                                        |
+| -------------- | ------------------------------------------- |
+| `SPACE` ou `→` | Encerra o episódio atual, inicia o próximo  |
+| `DEL` ou `←`   | Descarta o episódio recém-gravado e o refaz |
 
 A aba mostra um contador de episódios e um contador de sessões.
 

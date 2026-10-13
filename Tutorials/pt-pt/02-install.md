@@ -43,13 +43,13 @@ lelab
 
 Serve a interface em **<http://localhost:8000/>** e abre o navegador.
 
-| Opção | O que faz |
-|---|---|
-| `lelab` | Modo de produção. Um processo serve a API e a interface compilada em `:8000` |
-| `lelab --dev` | Hot-reload do Vite em `:8080` e uvicorn `--reload` em `:8000`. Requer Node.js 22 |
+| Opção             | O que faz                                                                         |
+| ----------------- | --------------------------------------------------------------------------------- |
+| `lelab`           | Modo de produção. Um processo serve a API e a interface compilada em `:8000`      |
+| `lelab --dev`     | Hot-reload do Vite em `:8080` e uvicorn `--reload` em `:8000`. Requer Node.js 22  |
 | `lelab --rebuild` | Recompila o front-end a partir do código-fonte local e inicia em modo de produção |
-| `lelab --no-open` | Inicia sem abrir o navegador |
-| `lelab --stop` | Para um LeLab em execução e liberta as portas 8000 e 8080 |
+| `lelab --no-open` | Inicia sem abrir o navegador                                                      |
+| `lelab --stop`    | Para um LeLab em execução e liberta as portas 8000 e 8080                         |
 
 Para com `Ctrl+C`, ou a partir de outro terminal:
 

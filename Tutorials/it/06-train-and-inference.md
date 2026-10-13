@@ -11,22 +11,22 @@ L'addestramento trasforma il dataset in una **policy** — un modello che mappa 
 
 Apri la scheda **Training** e scegli:
 
-| Scelta | Note |
-|---|---|
-| **Dataset** | Un dataset locale, o uno dall'Hub |
-| **Tipo di policy** | **ACT** è la prima scelta abituale per un braccio singolo. Sono disponibili anche Diffusion Policy, SmolVLA e la famiglia π₀ |
-| **Dove eseguire** | Questa macchina, o un job cloud di Hugging Face |
-| **Durata dell'addestramento** | Numero di passi. Osserva la loss invece di presumere che di più sia meglio |
+| Scelta                        | Note                                                                                                                         |
+| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| **Dataset**                   | Un dataset locale, o uno dall'Hub                                                                                            |
+| **Tipo di policy**            | **ACT** è la prima scelta abituale per un braccio singolo. Sono disponibili anche Diffusion Policy, SmolVLA e la famiglia π₀ |
+| **Dove eseguire**             | Questa macchina, o un job cloud di Hugging Face                                                                              |
+| **Durata dell'addestramento** | Numero di passi. Osserva la loss invece di presumere che di più sia meglio                                                   |
 
 La scheda trasmette il log di addestramento e mostra i checkpoint mentre vengono scritti.
 
 ### Locale o cloud
 
-| | Locale | Job cloud Hugging Face |
-|---|---|---|
-| Requisiti | Una GPU su questa macchina | Un account Hugging Face con accesso |
-| Velocità | Dipende dalla tua GPU | Macchina fissa, scelta per ogni job |
-| Ideale per | Dataset piccoli, sperimentare | Esecuzioni più lunghe |
+|            | Locale                        | Job cloud Hugging Face              |
+| ---------- | ----------------------------- | ----------------------------------- |
+| Requisiti  | Una GPU su questa macchina    | Un account Hugging Face con accesso |
+| Velocità   | Dipende dalla tua GPU         | Macchina fissa, scelta per ogni job |
+| Ideale per | Dataset piccoli, sperimentare | Esecuzioni più lunghe               |
 
 L'opzione cloud è il motivo per cui un portatile basta per il resto del flusso di lavoro: registra in locale, addestra in remoto.
 

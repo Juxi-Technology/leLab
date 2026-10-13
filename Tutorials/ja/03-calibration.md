@@ -23,10 +23,10 @@ sudo usermod -aG dialout $USER
 
 ## どちらのアームがどちらか
 
-| アーム | LeRobot の名前 | LeLab での呼び方 |
-|---|---|---|
-| 手で動かす方 | `so101_leader` | **teleop** |
-| 追従する方 | `so101_follower` | **robot** |
+| アーム       | LeRobot の名前   | LeLab での呼び方 |
+| ------------ | ---------------- | ---------------- |
+| 手で動かす方 | `so101_leader`   | **teleop**       |
+| 追従する方   | `so101_follower` | **robot**        |
 
 リーダーを先にキャリブレーションします。2 つを取り違えると、キャリブレーション直後のアームがおかしな動きをするよくある原因になります。
 
@@ -59,12 +59,12 @@ sudo usermod -aG dialout $USER
 
 ## 保存されるもの
 
-| ファイル | 内容 |
-|---|---|
-| `~/.cache/huggingface/lerobot/calibration/teleoperators/so101_leader/*.json` | リーダーのプロファイル |
-| `~/.cache/huggingface/lerobot/calibration/robots/so101_follower/*.json` | フォロワーのプロファイル |
-| `~/.cache/huggingface/lerobot/ports/leader_port.txt` | リーダーのシリアルポート |
-| `~/.cache/huggingface/lerobot/ports/follower_port.txt` | フォロワーのシリアルポート |
+| ファイル                                                                     | 内容                       |
+| ---------------------------------------------------------------------------- | -------------------------- |
+| `~/.cache/huggingface/lerobot/calibration/teleoperators/so101_leader/*.json` | リーダーのプロファイル     |
+| `~/.cache/huggingface/lerobot/calibration/robots/so101_follower/*.json`      | フォロワーのプロファイル   |
+| `~/.cache/huggingface/lerobot/ports/leader_port.txt`                         | リーダーのシリアルポート   |
+| `~/.cache/huggingface/lerobot/ports/follower_port.txt`                       | フォロワーのシリアルポート |
 
 これらは `~/.cache/` の下にあるため、キャッシュを消去するツールが削除することがあります。キャリブレーション済みのアームがまたキャリブレーションを求められたら、ここを確認してください——[トラブルシューティング](07-troubleshooting.md)を参照。
 

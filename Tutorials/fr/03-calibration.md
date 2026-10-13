@@ -23,10 +23,10 @@ Ensuite, **déconnectez-vous et reconnectez-vous**. Sans cela, LeLab détecte le
 
 ## Quel bras est lequel
 
-| Bras | Nom LeRobot | Nom dans LeLab |
-|---|---|---|
-| Celui que vous déplacez à la main | `so101_leader` | **teleop** |
-| Celui qui suit | `so101_follower` | **robot** |
+| Bras                              | Nom LeRobot      | Nom dans LeLab |
+| --------------------------------- | ---------------- | -------------- |
+| Celui que vous déplacez à la main | `so101_leader`   | **teleop**     |
+| Celui qui suit                    | `so101_follower` | **robot**      |
 
 Calibrez le leader en premier. Les confondre est la cause habituelle d'un bras fraîchement calibré qui se comporte bizarrement.
 
@@ -59,12 +59,12 @@ La rotation est enregistrée par caméra et appliquée à l'aperçu de configura
 
 ## Ce qui est enregistré
 
-| Fichier | Contenu |
-|---|---|
-| `~/.cache/huggingface/lerobot/calibration/teleoperators/so101_leader/*.json` | Profils du leader |
-| `~/.cache/huggingface/lerobot/calibration/robots/so101_follower/*.json` | Profils du follower |
-| `~/.cache/huggingface/lerobot/ports/leader_port.txt` | Port série du leader |
-| `~/.cache/huggingface/lerobot/ports/follower_port.txt` | Port série du follower |
+| Fichier                                                                      | Contenu                |
+| ---------------------------------------------------------------------------- | ---------------------- |
+| `~/.cache/huggingface/lerobot/calibration/teleoperators/so101_leader/*.json` | Profils du leader      |
+| `~/.cache/huggingface/lerobot/calibration/robots/so101_follower/*.json`      | Profils du follower    |
+| `~/.cache/huggingface/lerobot/ports/leader_port.txt`                         | Port série du leader   |
+| `~/.cache/huggingface/lerobot/ports/follower_port.txt`                       | Port série du follower |
 
 Ceux-ci se trouvent sous `~/.cache/`, donc les outils de nettoyage de cache peuvent les supprimer. Si un bras calibré redemande à être calibré, vérifiez ici — voir [Dépannage](07-troubleshooting.md).
 

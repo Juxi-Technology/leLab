@@ -11,22 +11,22 @@ El entrenamiento convierte el dataset en una **política** — un modelo que asi
 
 Abre la pestaña **Training** y elige:
 
-| Elección | Notas |
-|---|---|
-| **Dataset** | Un dataset local, o uno del Hub |
-| **Tipo de política** | **ACT** suele ser la primera opción para un solo brazo. Diffusion Policy, SmolVLA y la familia π₀ también están disponibles |
-| **Dónde ejecutar** | Esta máquina, o un trabajo en la nube de Hugging Face |
-| **Duración del entrenamiento** | Número de pasos. Vigila la pérdida en lugar de suponer que más es mejor |
+| Elección                       | Notas                                                                                                                       |
+| ------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
+| **Dataset**                    | Un dataset local, o uno del Hub                                                                                             |
+| **Tipo de política**           | **ACT** suele ser la primera opción para un solo brazo. Diffusion Policy, SmolVLA y la familia π₀ también están disponibles |
+| **Dónde ejecutar**             | Esta máquina, o un trabajo en la nube de Hugging Face                                                                       |
+| **Duración del entrenamiento** | Número de pasos. Vigila la pérdida en lugar de suponer que más es mejor                                                     |
 
 La pestaña transmite el registro de entrenamiento y muestra los checkpoints a medida que se escriben.
 
 ### Local o en la nube
 
-| | Local | Trabajo en la nube de Hugging Face |
-|---|---|---|
-| Necesita | Una GPU en esta máquina | Una cuenta de Hugging Face con acceso |
-| Velocidad | Depende de tu GPU | Máquina fija, elegida por trabajo |
-| Ideal para | Datasets pequeños, experimentar | Ejecuciones largas |
+|            | Local                           | Trabajo en la nube de Hugging Face    |
+| ---------- | ------------------------------- | ------------------------------------- |
+| Necesita   | Una GPU en esta máquina         | Una cuenta de Hugging Face con acceso |
+| Velocidad  | Depende de tu GPU               | Máquina fija, elegida por trabajo     |
+| Ideal para | Datasets pequeños, experimentar | Ejecuciones largas                    |
 
 La opción en la nube es la razón por la que un portátil basta para el resto del flujo de trabajo: graba en local, entrena en remoto.
 

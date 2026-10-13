@@ -11,12 +11,12 @@ Um conjunto de dados é uma coleção de **episódios**, cada um uma única demo
 
 Abra o separador **Recording** e preencha:
 
-| Campo | O que preencher |
-|---|---|
+| Campo                                     | O que preencher                                                                                                                                       |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Nome do conjunto de dados** (`repo_id`) | `your-name/task-name`, por exemplo `juxi/pick-up-the-cube`. A parte `name/` tem de ser o seu nome de utilizador na Hugging Face se pretender enviá-lo |
-| **Descrição da tarefa** | Uma frase, por exemplo `pick up the cube and drop it in the box`. É o texto sobre o qual a política é condicionada |
-| **Episódios** | Quantas demonstrações — ver abaixo |
-| **Câmaras** | Que câmaras configuradas incluir e com que resolução e taxa de fotogramas |
+| **Descrição da tarefa**                   | Uma frase, por exemplo `pick up the cube and drop it in the box`. É o texto sobre o qual a política é condicionada                                    |
+| **Episódios**                             | Quantas demonstrações — ver abaixo                                                                                                                    |
+| **Câmaras**                               | Que câmaras configuradas incluir e com que resolução e taxa de fotogramas                                                                             |
 
 ### Quantos episódios
 
@@ -26,10 +26,10 @@ A consistência importa mais do que a quantidade: a mesma posição inicial, o m
 
 ## Durante a gravação
 
-| Tecla | Ação |
-|---|---|
-| `SPACE` ou `→` | Termina o episódio atual e inicia o seguinte |
-| `DEL` ou `←` | Descarta o episódio acabado de gravar e repete-o |
+| Tecla          | Ação                                             |
+| -------------- | ------------------------------------------------ |
+| `SPACE` ou `→` | Termina o episódio atual e inicia o seguinte     |
+| `DEL` ou `←`   | Descarta o episódio acabado de gravar e repete-o |
 
 O separador mostra um contador de episódios e um contador de sessões.
 

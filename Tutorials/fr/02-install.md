@@ -43,13 +43,13 @@ lelab
 
 Sert l'interface à l'adresse **<http://localhost:8000/>** et ouvre le navigateur.
 
-| Option | Ce qu'elle fait |
-|---|---|
-| `lelab` | Mode production. Un seul processus sert l'API et l'interface compilée sur `:8000` |
-| `lelab --dev` | Rechargement à chaud Vite sur `:8080` plus uvicorn `--reload` sur `:8000`. Nécessite Node.js 22 |
-| `lelab --rebuild` | Reconstruit le front end depuis les sources locales, puis démarre en mode production |
-| `lelab --no-open` | Démarre sans ouvrir de navigateur |
-| `lelab --stop` | Arrête un LeLab en cours et libère les ports 8000 et 8080 |
+| Option            | Ce qu'elle fait                                                                                 |
+| ----------------- | ----------------------------------------------------------------------------------------------- |
+| `lelab`           | Mode production. Un seul processus sert l'API et l'interface compilée sur `:8000`               |
+| `lelab --dev`     | Rechargement à chaud Vite sur `:8080` plus uvicorn `--reload` sur `:8000`. Nécessite Node.js 22 |
+| `lelab --rebuild` | Reconstruit le front end depuis les sources locales, puis démarre en mode production            |
+| `lelab --no-open` | Démarre sans ouvrir de navigateur                                                               |
+| `lelab --stop`    | Arrête un LeLab en cours et libère les ports 8000 et 8080                                       |
 
 Arrêtez avec `Ctrl+C`, ou depuis un autre terminal :
 

@@ -11,12 +11,12 @@ A dataset is a collection of **episodes**, each a single demonstration of the ta
 
 Open the **Recording** tab and fill in:
 
-| Field | What to put there |
-|---|---|
+| Field                        | What to put there                                                                                                              |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | **Dataset name** (`repo_id`) | `your-name/task-name`, e.g. `juxi/pick-up-the-cube`. The `name/` part must be your Hugging Face username if you plan to upload |
-| **Task description** | One sentence, e.g. `pick up the cube and drop it in the box`. This is the text the policy is conditioned on |
-| **Episodes** | How many demonstrations — see below |
-| **Cameras** | Which configured cameras to include, and at what resolution and frame rate |
+| **Task description**         | One sentence, e.g. `pick up the cube and drop it in the box`. This is the text the policy is conditioned on                    |
+| **Episodes**                 | How many demonstrations — see below                                                                                            |
+| **Cameras**                  | Which configured cameras to include, and at what resolution and frame rate                                                     |
 
 ### How many episodes
 
@@ -26,10 +26,10 @@ Consistency matters more than count: the same starting position, camera framing 
 
 ## During recording
 
-| Key | Action |
-|---|---|
-| `SPACE` or `→` | End the current episode, start the next |
-| `DEL` or `←` | Discard the episode just recorded and redo it |
+| Key            | Action                                        |
+| -------------- | --------------------------------------------- |
+| `SPACE` or `→` | End the current episode, start the next       |
+| `DEL` or `←`   | Discard the episode just recorded and redo it |
 
 The tab shows an episode counter and a session counter.
 

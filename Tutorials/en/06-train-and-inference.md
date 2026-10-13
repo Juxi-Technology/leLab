@@ -11,22 +11,22 @@ Training turns the dataset into a **policy** — a model mapping camera images t
 
 Open the **Training** tab and choose:
 
-| Choice | Notes |
-|---|---|
-| **Dataset** | A local dataset, or one from the Hub |
-| **Policy type** | **ACT** is the usual first choice for a single arm. Diffusion Policy, SmolVLA and the π₀ family are also available |
-| **Where to run** | This machine, or a Hugging Face cloud job |
-| **Training length** | Number of steps. Watch the loss rather than assuming more is better |
+| Choice              | Notes                                                                                                              |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| **Dataset**         | A local dataset, or one from the Hub                                                                               |
+| **Policy type**     | **ACT** is the usual first choice for a single arm. Diffusion Policy, SmolVLA and the π₀ family are also available |
+| **Where to run**    | This machine, or a Hugging Face cloud job                                                                          |
+| **Training length** | Number of steps. Watch the loss rather than assuming more is better                                                |
 
 The tab streams the training log and shows checkpoints as they are written.
 
 ### Local or cloud
 
-| | Local | Hugging Face cloud job |
-|---|---|---|
-| Needs | A GPU on this machine | A Hugging Face account with access |
-| Speed | Depends on your GPU | Fixed machine, chosen per job |
-| Best for | Small datasets, experimenting | Longer runs |
+|          | Local                         | Hugging Face cloud job             |
+| -------- | ----------------------------- | ---------------------------------- |
+| Needs    | A GPU on this machine         | A Hugging Face account with access |
+| Speed    | Depends on your GPU           | Fixed machine, chosen per job      |
+| Best for | Small datasets, experimenting | Longer runs                        |
 
 The cloud option is why a laptop is enough for the rest of the workflow: record locally, train remotely.
 

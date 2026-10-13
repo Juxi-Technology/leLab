@@ -23,10 +23,10 @@ Luego **cierra sesión y vuelve a entrar**. Sin esto, LeLab encuentra el brazo p
 
 ## Qué brazo es cuál
 
-| Brazo | Nombre en LeRobot | LeLab lo llama |
-|---|---|---|
-| El que mueves a mano | `so101_leader` | **teleop** |
-| El que sigue | `so101_follower` | **robot** |
+| Brazo                | Nombre en LeRobot | LeLab lo llama |
+| -------------------- | ----------------- | -------------- |
+| El que mueves a mano | `so101_leader`    | **teleop**     |
+| El que sigue         | `so101_follower`  | **robot**      |
 
 Calibra el leader primero. Confundir los dos es la causa habitual de que un brazo recién calibrado se comporte de forma extraña.
 
@@ -59,12 +59,12 @@ La rotación se guarda por cámara y se aplica a la vista previa de configuraci�
 
 ## Qué se guarda
 
-| Archivo | Contenido |
-|---|---|
-| `~/.cache/huggingface/lerobot/calibration/teleoperators/so101_leader/*.json` | Perfiles del leader |
-| `~/.cache/huggingface/lerobot/calibration/robots/so101_follower/*.json` | Perfiles del follower |
-| `~/.cache/huggingface/lerobot/ports/leader_port.txt` | Puerto serie del leader |
-| `~/.cache/huggingface/lerobot/ports/follower_port.txt` | Puerto serie del follower |
+| Archivo                                                                      | Contenido                 |
+| ---------------------------------------------------------------------------- | ------------------------- |
+| `~/.cache/huggingface/lerobot/calibration/teleoperators/so101_leader/*.json` | Perfiles del leader       |
+| `~/.cache/huggingface/lerobot/calibration/robots/so101_follower/*.json`      | Perfiles del follower     |
+| `~/.cache/huggingface/lerobot/ports/leader_port.txt`                         | Puerto serie del leader   |
+| `~/.cache/huggingface/lerobot/ports/follower_port.txt`                       | Puerto serie del follower |
 
 Estos viven bajo `~/.cache/`, así que las herramientas de limpieza de caché pueden borrarlos. Si un brazo calibrado pide que lo calibres de nuevo, mira aquí — consulta [Solución de problemas](07-troubleshooting.md).
 

@@ -8,15 +8,15 @@ LeLab es una aplicación web que reúne el flujo de trabajo de LeRobot — calib
 
 ## Qué puedes hacer
 
-| Página | Qué hace |
-|---|---|
-| **Calibration** (calibración) | Calibración guiada de ambos brazos |
+| Página                            | Qué hace                                                                                        |
+| --------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **Calibration** (calibración)     | Calibración guiada de ambos brazos                                                              |
 | **Teleoperation** (teleoperación) | Mueves el brazo leader; el follower lo imita, con transmisión de posiciones articulares en vivo |
-| **Recording** (grabación) | Captura episodios en un LeRobotDataset, con cámaras |
-| **Datasets** | Explora los episodios en disco, fotograma a fotograma, con un trazo de movimiento articular |
-| **Training** (entrenamiento) | Inicia un trabajo de entrenamiento de LeRobot y observa los registros |
-| **Inference** (inferencia) | Ejecuta una política entrenada en el brazo follower |
-| **Upload** (subida) | Sube tu dataset al Hugging Face Hub |
+| **Recording** (grabación)         | Captura episodios en un LeRobotDataset, con cámaras                                             |
+| **Datasets**                      | Explora los episodios en disco, fotograma a fotograma, con un trazo de movimiento articular     |
+| **Training** (entrenamiento)      | Inicia un trabajo de entrenamiento de LeRobot y observa los registros                           |
+| **Inference** (inferencia)        | Ejecuta una política entrenada en el brazo follower                                             |
+| **Upload** (subida)               | Sube tu dataset al Hugging Face Hub                                                             |
 
 ## LeLab y LeRobot
 
@@ -27,13 +27,13 @@ LeRobot es la biblioteca — controladores de robots, formato de dataset, códig
 
 ## Requisitos
 
-| | |
-|---|---|
-| Robot | **Brazos SO-101 leader + follower** — la única configuración compatible |
-| Ordenador | Linux, macOS o Windows |
-| Python | **3.12 o posterior** |
-| Node.js | 22 — solo para `lelab --dev` |
-| USB | Dos puertos libres, uno por brazo |
+|           |                                                                         |
+| --------- | ----------------------------------------------------------------------- |
+| Robot     | **Brazos SO-101 leader + follower** — la única configuración compatible |
+| Ordenador | Linux, macOS o Windows                                                  |
+| Python    | **3.12 o posterior**                                                    |
+| Node.js   | 22 — solo para `lelab --dev`                                            |
+| USB       | Dos puertos libres, uno por brazo                                       |
 
 Calibrar, teleoperar y grabar funciona en un portátil. El entrenamiento es el paso pesado, y LeLab puede ejecutarlo en el Hugging Face Hub — consulta la [página 6](06-train-and-inference.md).
 
@@ -41,12 +41,12 @@ Calibrar, teleoperar y grabar funciona en un portátil. El entrenamiento es el p
 
 Bajo `~/.cache/huggingface/lerobot/`:
 
-| Ruta | Contenido |
-|---|---|
-| `calibration/teleoperators/so101_leader/*.json` | Archivos de calibración del leader |
-| `calibration/robots/so101_follower/*.json` | Archivos de calibración del follower |
-| `ports/leader_port.txt` · `ports/follower_port.txt` | Últimos puertos serie usados |
-| `saved_configs/*.txt` | Último perfil de calibración seleccionado |
+| Ruta                                                | Contenido                                 |
+| --------------------------------------------------- | ----------------------------------------- |
+| `calibration/teleoperators/so101_leader/*.json`     | Archivos de calibración del leader        |
+| `calibration/robots/so101_follower/*.json`          | Archivos de calibración del follower      |
+| `ports/leader_port.txt` · `ports/follower_port.txt` | Últimos puertos serie usados              |
+| `saved_configs/*.txt`                               | Último perfil de calibración seleccionado |
 
 Los datasets van donde LeRobot los pone — por defecto, en el mismo árbol.
 
@@ -56,10 +56,10 @@ Borrar esa caché, o reinstalar, obliga a recalibrar ambos brazos. Consulta [Sol
 
 LeRobot nombra los brazos por su rol; la API de LeLab usa un segundo conjunto de nombres para los mismos dos brazos:
 
-| Tú dices | LeRobot / LeLab dicen |
-|---|---|
-| El brazo que mueves a mano | **leader** · **teleop** |
-| El brazo que sigue | **follower** · **robot** |
+| Tú dices                   | LeRobot / LeLab dicen    |
+| -------------------------- | ------------------------ |
+| El brazo que mueves a mano | **leader** · **teleop**  |
+| El brazo que sigue         | **follower** · **robot** |
 
 ---
 

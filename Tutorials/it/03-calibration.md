@@ -23,10 +23,10 @@ Poi **esegui il logout e rientra**. Senza questo, LeLab trova il braccio ma ogni
 
 ## Quale braccio è quale
 
-| Braccio | Nome LeRobot | LeLab lo chiama |
-|---|---|---|
-| Quello che muovi a mano | `so101_leader` | **teleop** |
-| Quello che segue | `so101_follower` | **robot** |
+| Braccio                 | Nome LeRobot     | LeLab lo chiama |
+| ----------------------- | ---------------- | --------------- |
+| Quello che muovi a mano | `so101_leader`   | **teleop**      |
+| Quello che segue        | `so101_follower` | **robot**       |
 
 Calibra prima il leader. Scambiare i due è la causa abituale di un braccio appena calibrato che si comporta in modo strano.
 
@@ -59,12 +59,12 @@ La rotazione viene salvata per telecamera e applicata all'anteprima di configura
 
 ## Cosa viene salvato
 
-| File | Contenuto |
-|---|---|
-| `~/.cache/huggingface/lerobot/calibration/teleoperators/so101_leader/*.json` | Profili del leader |
-| `~/.cache/huggingface/lerobot/calibration/robots/so101_follower/*.json` | Profili del follower |
-| `~/.cache/huggingface/lerobot/ports/leader_port.txt` | Porta seriale del leader |
-| `~/.cache/huggingface/lerobot/ports/follower_port.txt` | Porta seriale del follower |
+| File                                                                         | Contenuto                  |
+| ---------------------------------------------------------------------------- | -------------------------- |
+| `~/.cache/huggingface/lerobot/calibration/teleoperators/so101_leader/*.json` | Profili del leader         |
+| `~/.cache/huggingface/lerobot/calibration/robots/so101_follower/*.json`      | Profili del follower       |
+| `~/.cache/huggingface/lerobot/ports/leader_port.txt`                         | Porta seriale del leader   |
+| `~/.cache/huggingface/lerobot/ports/follower_port.txt`                       | Porta seriale del follower |
 
 Questi file stanno sotto `~/.cache/`, quindi gli strumenti di pulizia della cache possono eliminarli. Se un braccio calibrato chiede di essere ricalibrato, controlla qui — vedi [Risoluzione dei problemi](07-troubleshooting.md).
 

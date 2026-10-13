@@ -11,22 +11,22 @@ O treino transforma o conjunto de dados numa **política** — um modelo que map
 
 Abra o separador **Training** e escolha:
 
-| Opção | Notas |
-|---|---|
-| **Conjunto de dados** | Um conjunto de dados local, ou um do Hub |
-| **Tipo de política** | O **ACT** é normalmente a primeira escolha para um único braço. Também estão disponíveis o Diffusion Policy, o SmolVLA e a família π₀ |
-| **Onde executar** | Nesta máquina, ou numa tarefa na nuvem do Hugging Face |
-| **Duração do treino** | Número de passos. Acompanhe a perda em vez de presumir que mais é melhor |
+| Opção                 | Notas                                                                                                                                 |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **Conjunto de dados** | Um conjunto de dados local, ou um do Hub                                                                                              |
+| **Tipo de política**  | O **ACT** é normalmente a primeira escolha para um único braço. Também estão disponíveis o Diffusion Policy, o SmolVLA e a família π₀ |
+| **Onde executar**     | Nesta máquina, ou numa tarefa na nuvem do Hugging Face                                                                                |
+| **Duração do treino** | Número de passos. Acompanhe a perda em vez de presumir que mais é melhor                                                              |
 
 O separador transmite o registo de treino e mostra os checkpoints à medida que são escritos.
 
 ### Local ou na nuvem
 
-| | Local | Tarefa na nuvem do Hugging Face |
-|---|---|---|
-| Requer | Uma GPU nesta máquina | Uma conta Hugging Face com acesso |
-| Velocidade | Depende da sua GPU | Máquina fixa, escolhida por tarefa |
-| Ideal para | Conjuntos de dados pequenos, experimentação | Execuções mais longas |
+|            | Local                                       | Tarefa na nuvem do Hugging Face    |
+| ---------- | ------------------------------------------- | ---------------------------------- |
+| Requer     | Uma GPU nesta máquina                       | Uma conta Hugging Face com acesso  |
+| Velocidade | Depende da sua GPU                          | Máquina fixa, escolhida por tarefa |
+| Ideal para | Conjuntos de dados pequenos, experimentação | Execuções mais longas              |
 
 A opção na nuvem é o motivo pelo qual um portátil basta para o resto do fluxo de trabalho: gravar localmente, treinar remotamente.
 

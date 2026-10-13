@@ -8,15 +8,15 @@ LeLab は、LeRobot のワークフロー——キャリブレーション、テ
 
 ## できること
 
-| ページ | 内容 |
-|---|---|
-| **Calibration** | 両アームのガイド付きキャリブレーション |
+| ページ            | 内容                                                                 |
+| ----------------- | -------------------------------------------------------------------- |
+| **Calibration**   | 両アームのガイド付きキャリブレーション                               |
 | **Teleoperation** | リーダーアームを動かすとフォロワーが追従し、関節をリアルタイムで配信 |
-| **Recording** | カメラ付きで操作を LeRobotDataset に収録 |
-| **Datasets** | ディスク上のエピソードを 1 フレームずつ、関節の動きグラフ付きで表示 |
-| **Training** | LeRobot の訓練ジョブを開始し、ログを確認 |
-| **Inference** | 訓練済みポリシーをフォロワーアームで実行 |
-| **Upload** | データセットを Hugging Face Hub に push |
+| **Recording**     | カメラ付きで操作を LeRobotDataset に収録                             |
+| **Datasets**      | ディスク上のエピソードを 1 フレームずつ、関節の動きグラフ付きで表示  |
+| **Training**      | LeRobot の訓練ジョブを開始し、ログを確認                             |
+| **Inference**     | 訓練済みポリシーをフォロワーアームで実行                             |
+| **Upload**        | データセットを Hugging Face Hub に push                              |
 
 ## LeLab と LeRobot
 
@@ -27,13 +27,13 @@ LeRobot はライブラリです——ロボットのドライバ、データセ
 
 ## 必要なもの
 
-| | |
-|---|---|
-| ロボット | **SO-101 リーダー + フォロワーアーム**——唯一対応の構成 |
-| コンピュータ | Linux、macOS、Windows |
-| Python | **3.12 以降** |
-| Node.js | 22——`lelab --dev` でのみ必要 |
-| USB | 空きポート 2 つ、アームごとに 1 つ |
+|              |                                                        |
+| ------------ | ------------------------------------------------------ |
+| ロボット     | **SO-101 リーダー + フォロワーアーム**——唯一対応の構成 |
+| コンピュータ | Linux、macOS、Windows                                  |
+| Python       | **3.12 以降**                                          |
+| Node.js      | 22——`lelab --dev` でのみ必要                           |
+| USB          | 空きポート 2 つ、アームごとに 1 つ                     |
 
 キャリブレーション、テレオペレーション、記録はノート PC で動きます。訓練は重い工程で、LeLab は代わりに Hugging Face Hub で実行できます——[6 ページ](06-train-and-inference.md)を参照。
 
@@ -41,12 +41,12 @@ LeRobot はライブラリです——ロボットのドライバ、データセ
 
 `~/.cache/huggingface/lerobot/` の下です：
 
-| パス | 内容 |
-|---|---|
-| `calibration/teleoperators/so101_leader/*.json` | リーダーのキャリブレーションファイル |
-| `calibration/robots/so101_follower/*.json` | フォロワーのキャリブレーションファイル |
-| `ports/leader_port.txt` · `ports/follower_port.txt` | 最後に使ったシリアルポート |
-| `saved_configs/*.txt` | 最後に選んだキャリブレーションプロファイル |
+| パス                                                | 内容                                       |
+| --------------------------------------------------- | ------------------------------------------ |
+| `calibration/teleoperators/so101_leader/*.json`     | リーダーのキャリブレーションファイル       |
+| `calibration/robots/so101_follower/*.json`          | フォロワーのキャリブレーションファイル     |
+| `ports/leader_port.txt` · `ports/follower_port.txt` | 最後に使ったシリアルポート                 |
+| `saved_configs/*.txt`                               | 最後に選んだキャリブレーションプロファイル |
 
 データセットは LeRobot が置く場所——デフォルトでは同じツリー——に保存されます。
 
@@ -56,10 +56,10 @@ LeRobot はライブラリです——ロボットのドライバ、データセ
 
 LeRobot はアームを役割で呼び、LeLab の API は同じ 2 本のアームに別の名前を使います：
 
-| あなたの呼び方 | LeRobot / LeLab の呼び方 |
-|---|---|
-| 手で動かすアーム | **leader** · **teleop** |
-| 追従するアーム | **follower** · **robot** |
+| あなたの呼び方   | LeRobot / LeLab の呼び方 |
+| ---------------- | ------------------------ |
+| 手で動かすアーム | **leader** · **teleop**  |
+| 追従するアーム   | **follower** · **robot** |
 
 ---
 

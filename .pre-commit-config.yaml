@@ -48,6 +48,11 @@ repos:
     hooks:
       - id: typos
         args: [--force-exclude]
+        # `typos` ships an English dictionary, and the tutorial set is
+        # published in 11 languages. Everyday words in the other ten read as
+        # English misspellings — 535 findings, none of them real. Check the
+        # English pages and skip the translations.
+        exclude: ^Tutorials/(de|es|fr|it|ja|ko|pt-br|pt-pt|zh-hans|zh-hant)/
 
   - repo: https://github.com/asottile/pyupgrade
     rev: v3.21.0

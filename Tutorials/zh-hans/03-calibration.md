@@ -23,10 +23,10 @@ sudo usermod -aG dialout $USER
 
 ## 哪条臂是哪条
 
-| 机械臂 | LeRobot 名字 | LeLab 叫 |
-|---|---|---|
-| 你用手拖着动的那条 | `so101_leader` | **teleop** |
-| 跟着动的那条 | `so101_follower` | **robot** |
+| 机械臂             | LeRobot 名字     | LeLab 叫   |
+| ------------------ | ---------------- | ---------- |
+| 你用手拖着动的那条 | `so101_leader`   | **teleop** |
+| 跟着动的那条       | `so101_follower` | **robot**  |
 
 先校准主臂。两条弄混，是刚校准完却表现异常的常见原因。
 
@@ -59,12 +59,12 @@ sudo usermod -aG dialout $USER
 
 ## 存到哪了
 
-| 文件 | 内容 |
-|---|---|
+| 文件                                                                         | 内容     |
+| ---------------------------------------------------------------------------- | -------- |
 | `~/.cache/huggingface/lerobot/calibration/teleoperators/so101_leader/*.json` | 主臂配置 |
-| `~/.cache/huggingface/lerobot/calibration/robots/so101_follower/*.json` | 从臂配置 |
-| `~/.cache/huggingface/lerobot/ports/leader_port.txt` | 主臂串口 |
-| `~/.cache/huggingface/lerobot/ports/follower_port.txt` | 从臂串口 |
+| `~/.cache/huggingface/lerobot/calibration/robots/so101_follower/*.json`      | 从臂配置 |
+| `~/.cache/huggingface/lerobot/ports/leader_port.txt`                         | 主臂串口 |
+| `~/.cache/huggingface/lerobot/ports/follower_port.txt`                       | 从臂串口 |
 
 这些都在 `~/.cache/` 下，会被清理缓存的工具删掉。校准好的臂忽然又要重新校准，先查这里——见[常见问题](07-troubleshooting.md)。
 

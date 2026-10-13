@@ -11,12 +11,12 @@ Un dataset es una colección de **episodios**, cada uno una única demostración
 
 Abre la pestaña **Recording** y rellena:
 
-| Campo | Qué poner |
-|---|---|
+| Campo                              | Qué poner                                                                                                                                     |
+| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Nombre del dataset** (`repo_id`) | `your-name/task-name`, por ejemplo `juxi/pick-up-the-cube`. La parte `name/` debe ser tu nombre de usuario de Hugging Face si piensas subirlo |
-| **Descripción de la tarea** | Una frase, por ejemplo `pick up the cube and drop it in the box`. Es el texto sobre el que se condiciona la política |
-| **Episodios** | Cuántas demostraciones — ver más abajo |
-| **Cámaras** | Qué cámaras configuradas incluir, y con qué resolución y frecuencia de fotogramas |
+| **Descripción de la tarea**        | Una frase, por ejemplo `pick up the cube and drop it in the box`. Es el texto sobre el que se condiciona la política                          |
+| **Episodios**                      | Cuántas demostraciones — ver más abajo                                                                                                        |
+| **Cámaras**                        | Qué cámaras configuradas incluir, y con qué resolución y frecuencia de fotogramas                                                             |
 
 ### Cuántos episodios
 
@@ -26,10 +26,10 @@ La consistencia importa más que la cantidad: la misma posición inicial, el mis
 
 ## Durante la grabación
 
-| Tecla | Acción |
-|---|---|
-| `SPACE` o `→` | Termina el episodio actual, inicia el siguiente |
-| `DEL` o `←` | Descarta el episodio recién grabado y hazlo de nuevo |
+| Tecla         | Acción                                               |
+| ------------- | ---------------------------------------------------- |
+| `SPACE` o `→` | Termina el episodio actual, inicia el siguiente      |
+| `DEL` o `←`   | Descarta el episodio recién grabado y hazlo de nuevo |
 
 La pestaña muestra un contador de episodios y un contador de sesión.
 

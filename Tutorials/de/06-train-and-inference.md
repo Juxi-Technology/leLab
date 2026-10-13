@@ -11,22 +11,22 @@ Das Training verwandelt das Dataset in eine **Policy** — ein Modell, das Kamer
 
 Öffnen Sie den Tab **Training** und wählen Sie:
 
-| Auswahl | Hinweise |
-|---|---|
-| **Dataset** | Ein lokales Dataset oder eines vom Hub |
-| **Policy-Typ** | **ACT** ist die übliche erste Wahl für einen einzelnen Arm. Diffusion Policy, SmolVLA und die π₀-Familie sind ebenfalls verfügbar |
-| **Ausführungsort** | Dieser Rechner oder ein Hugging-Face-Cloud-Job |
-| **Trainingsdauer** | Anzahl der Schritte. Beobachten Sie den Loss, statt anzunehmen, mehr sei besser |
+| Auswahl            | Hinweise                                                                                                                          |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
+| **Dataset**        | Ein lokales Dataset oder eines vom Hub                                                                                            |
+| **Policy-Typ**     | **ACT** ist die übliche erste Wahl für einen einzelnen Arm. Diffusion Policy, SmolVLA und die π₀-Familie sind ebenfalls verfügbar |
+| **Ausführungsort** | Dieser Rechner oder ein Hugging-Face-Cloud-Job                                                                                    |
+| **Trainingsdauer** | Anzahl der Schritte. Beobachten Sie den Loss, statt anzunehmen, mehr sei besser                                                   |
 
 Der Tab streamt das Trainingslog und zeigt Checkpoints, während sie geschrieben werden.
 
 ### Lokal oder Cloud
 
-| | Lokal | Hugging-Face-Cloud-Job |
-|---|---|---|
-| Benötigt | Eine GPU auf diesem Rechner | Ein Hugging-Face-Konto mit Zugriff |
-| Geschwindigkeit | Hängt von Ihrer GPU ab | Feste Maschine, je Job gewählt |
-| Am besten für | Kleine Datasets, Experimentieren | Längere Läufe |
+|                 | Lokal                            | Hugging-Face-Cloud-Job             |
+| --------------- | -------------------------------- | ---------------------------------- |
+| Benötigt        | Eine GPU auf diesem Rechner      | Ein Hugging-Face-Konto mit Zugriff |
+| Geschwindigkeit | Hängt von Ihrer GPU ab           | Feste Maschine, je Job gewählt     |
+| Am besten für   | Kleine Datasets, Experimentieren | Längere Läufe                      |
 
 Die Cloud-Option ist der Grund, warum ein Laptop für den Rest des Workflows ausreicht: lokal aufzeichnen, remote trainieren.
 

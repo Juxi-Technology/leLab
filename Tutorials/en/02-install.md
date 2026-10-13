@@ -43,13 +43,13 @@ lelab
 
 Serves the UI at **<http://localhost:8000/>** and opens the browser.
 
-| Flag | What it does |
-|---|---|
-| `lelab` | Production mode. One process serves the API and the built UI on `:8000` |
-| `lelab --dev` | Vite hot-reload on `:8080` plus uvicorn `--reload` on `:8000`. Needs Node.js 22 |
-| `lelab --rebuild` | Rebuild the front end from local sources, then start in production mode |
-| `lelab --no-open` | Start without opening a browser |
-| `lelab --stop` | Stop a running LeLab and free ports 8000 and 8080 |
+| Flag              | What it does                                                                    |
+| ----------------- | ------------------------------------------------------------------------------- |
+| `lelab`           | Production mode. One process serves the API and the built UI on `:8000`         |
+| `lelab --dev`     | Vite hot-reload on `:8080` plus uvicorn `--reload` on `:8000`. Needs Node.js 22 |
+| `lelab --rebuild` | Rebuild the front end from local sources, then start in production mode         |
+| `lelab --no-open` | Start without opening a browser                                                 |
+| `lelab --stop`    | Stop a running LeLab and free ports 8000 and 8080                               |
 
 Stop with `Ctrl+C`, or from another terminal:
 

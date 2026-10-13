@@ -20,12 +20,12 @@ L'onglet diffuse les positions des articulations pendant l'exécution. Appuyez s
 
 ## Ce qu'il faut vérifier
 
-| Vérification | Pourquoi |
-|---|---|
-| Le follower suit sans à-coups, sans retard ni tremblement | Un suivi approximatif donne des données d'entraînement inutilisables |
-| La plage du follower correspond à celle du leader | S'arrêter court ou buter sur une limite signifie qu'une articulation est mal calibrée — revenez à la [page 3](03-calibration.md) |
-| Les deux bras bougent dans le même sens | Un follower inversé signifie qu'une articulation a été calibrée dans le mauvais sens |
-| Rien n'entre en collision aux extrémités | Parcourez toute la plage que vous prévoyez d'utiliser |
+| Vérification                                              | Pourquoi                                                                                                                         |
+| --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Le follower suit sans à-coups, sans retard ni tremblement | Un suivi approximatif donne des données d'entraînement inutilisables                                                             |
+| La plage du follower correspond à celle du leader         | S'arrêter court ou buter sur une limite signifie qu'une articulation est mal calibrée — revenez à la [page 3](03-calibration.md) |
+| Les deux bras bougent dans le même sens                   | Un follower inversé signifie qu'une articulation a été calibrée dans le mauvais sens                                             |
+| Rien n'entre en collision aux extrémités                  | Parcourez toute la plage que vous prévoyez d'utiliser                                                                            |
 
 Si le mouvement est incorrect sans être cassé — décalage, une articulation inversée, plage incomplète — recalibrez plutôt que de compenser. Un bras mal calibré produit un jeu de données qui entraîne la policy à faire la mauvaise chose.
 

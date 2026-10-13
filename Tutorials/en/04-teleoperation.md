@@ -20,12 +20,12 @@ The tab streams joint positions while it runs. Press stop when done.
 
 ## What to check
 
-| Check | Why |
-|---|---|
-| The follower tracks smoothly, without lag or jitter | Rough tracking becomes unusable training data |
-| The follower's range matches the leader's | Stopping short or hitting a limit means a joint is miscalibrated — go back to [page 3](03-calibration.md) |
-| Both arms move in the same direction | An inverted follower means a joint was calibrated in the wrong direction |
-| Nothing collides at the extremes | Move through the full range you plan to use |
+| Check                                               | Why                                                                                                       |
+| --------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| The follower tracks smoothly, without lag or jitter | Rough tracking becomes unusable training data                                                             |
+| The follower's range matches the leader's           | Stopping short or hitting a limit means a joint is miscalibrated — go back to [page 3](03-calibration.md) |
+| Both arms move in the same direction                | An inverted follower means a joint was calibrated in the wrong direction                                  |
+| Nothing collides at the extremes                    | Move through the full range you plan to use                                                               |
 
 If the motion is wrong but not broken — offset, one joint inverted, short of range — recalibrate rather than compensating. A miscalibrated arm produces a dataset that trains the policy to do the wrong thing.
 

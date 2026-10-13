@@ -8,15 +8,15 @@ LeLab is a web app that puts the LeRobot workflow — calibrate, teleoperate, re
 
 ## What you can do
 
-| Page | What it does |
-|---|---|
-| **Calibration** | Guided calibration of both arms |
+| Page              | What it does                                                            |
+| ----------------- | ----------------------------------------------------------------------- |
+| **Calibration**   | Guided calibration of both arms                                         |
 | **Teleoperation** | Move the leader arm; the follower mirrors it, with live joint streaming |
-| **Recording** | Capture episodes into a LeRobotDataset, with cameras |
-| **Datasets** | Browse episodes on disk, frame by frame, with a joint-motion trace |
-| **Training** | Start a LeRobot training job and watch the logs |
-| **Inference** | Run a trained policy on the follower arm |
-| **Upload** | Push your dataset to the Hugging Face Hub |
+| **Recording**     | Capture episodes into a LeRobotDataset, with cameras                    |
+| **Datasets**      | Browse episodes on disk, frame by frame, with a joint-motion trace      |
+| **Training**      | Start a LeRobot training job and watch the logs                         |
+| **Inference**     | Run a trained policy on the follower arm                                |
+| **Upload**        | Push your dataset to the Hugging Face Hub                               |
 
 ## LeLab and LeRobot
 
@@ -27,13 +27,13 @@ LeRobot is the library — robot drivers, dataset format, training code. LeLab i
 
 ## Requirements
 
-| | |
-|---|---|
-| Robot | **SO-101 leader + follower arms** — the only supported configuration |
-| Computer | Linux, macOS or Windows |
-| Python | **3.12 or newer** |
-| Node.js | 22 — only for `lelab --dev` |
-| USB | Two free ports, one per arm |
+|          |                                                                      |
+| -------- | -------------------------------------------------------------------- |
+| Robot    | **SO-101 leader + follower arms** — the only supported configuration |
+| Computer | Linux, macOS or Windows                                              |
+| Python   | **3.12 or newer**                                                    |
+| Node.js  | 22 — only for `lelab --dev`                                          |
+| USB      | Two free ports, one per arm                                          |
 
 Calibration, teleoperation and recording run on a laptop. Training is the heavy step, and LeLab can run it on the Hugging Face Hub instead — see [page 6](06-train-and-inference.md).
 
@@ -41,12 +41,12 @@ Calibration, teleoperation and recording run on a laptop. Training is the heavy 
 
 Under `~/.cache/huggingface/lerobot/`:
 
-| Path | Contents |
-|---|---|
-| `calibration/teleoperators/so101_leader/*.json` | Leader calibration files |
-| `calibration/robots/so101_follower/*.json` | Follower calibration files |
-| `ports/leader_port.txt` · `ports/follower_port.txt` | Last-used serial ports |
-| `saved_configs/*.txt` | Last-selected calibration profile |
+| Path                                                | Contents                          |
+| --------------------------------------------------- | --------------------------------- |
+| `calibration/teleoperators/so101_leader/*.json`     | Leader calibration files          |
+| `calibration/robots/so101_follower/*.json`          | Follower calibration files        |
+| `ports/leader_port.txt` · `ports/follower_port.txt` | Last-used serial ports            |
+| `saved_configs/*.txt`                               | Last-selected calibration profile |
 
 Datasets go where LeRobot puts them — by default the same tree.
 
@@ -56,10 +56,10 @@ Clearing that cache, or reinstalling, means recalibrating both arms. See [Troubl
 
 LeRobot names the arms by role; LeLab's API uses a second set of names for the same two arms:
 
-| You say | LeRobot / LeLab say |
-|---|---|
-| The arm you move by hand | **leader** · **teleop** |
-| The arm that follows | **follower** · **robot** |
+| You say                  | LeRobot / LeLab say      |
+| ------------------------ | ------------------------ |
+| The arm you move by hand | **leader** · **teleop**  |
+| The arm that follows     | **follower** · **robot** |
 
 ---
 

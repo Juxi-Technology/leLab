@@ -23,10 +23,10 @@ Dann **melden Sie sich ab und wieder an**. Ohne dies findet LeLab den Arm, aber 
 
 ## Welcher Arm welcher ist
 
-| Arm | LeRobot-Name | LeLab nennt ihn |
-|---|---|---|
-| Der, den Sie von Hand bewegen | `so101_leader` | **teleop** |
-| Der, der folgt | `so101_follower` | **robot** |
+| Arm                           | LeRobot-Name     | LeLab nennt ihn |
+| ----------------------------- | ---------------- | --------------- |
+| Der, den Sie von Hand bewegen | `so101_leader`   | **teleop**      |
+| Der, der folgt                | `so101_follower` | **robot**       |
 
 Kalibrieren Sie zuerst den leader. Die beiden zu verwechseln ist der übliche Grund, warum ein frisch kalibrierter Arm sich seltsam verhält.
 
@@ -59,12 +59,12 @@ Die Rotation wird pro Kamera gespeichert und auf die Setup-Vorschau, die Teleope
 
 ## Was gespeichert wird
 
-| Datei | Inhalt |
-|---|---|
-| `~/.cache/huggingface/lerobot/calibration/teleoperators/so101_leader/*.json` | leader-Profile |
-| `~/.cache/huggingface/lerobot/calibration/robots/so101_follower/*.json` | follower-Profile |
-| `~/.cache/huggingface/lerobot/ports/leader_port.txt` | Serieller Port des leader |
-| `~/.cache/huggingface/lerobot/ports/follower_port.txt` | Serieller Port des follower |
+| Datei                                                                        | Inhalt                      |
+| ---------------------------------------------------------------------------- | --------------------------- |
+| `~/.cache/huggingface/lerobot/calibration/teleoperators/so101_leader/*.json` | leader-Profile              |
+| `~/.cache/huggingface/lerobot/calibration/robots/so101_follower/*.json`      | follower-Profile            |
+| `~/.cache/huggingface/lerobot/ports/leader_port.txt`                         | Serieller Port des leader   |
+| `~/.cache/huggingface/lerobot/ports/follower_port.txt`                       | Serieller Port des follower |
 
 Diese liegen unter `~/.cache/`, daher können Cache-Bereinigungswerkzeuge sie löschen. Wenn ein kalibrierter Arm erneut kalibriert werden möchte, prüfen Sie hier — siehe [Fehlerbehebung](07-troubleshooting.md).
 

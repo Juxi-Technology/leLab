@@ -23,10 +23,10 @@ Depois **termine a sessão e volte a iniciá-la**. Sem isto, o LeLab encontra o 
 
 ## Qual braço é qual
 
-| Braço | Nome no LeRobot | Designação no LeLab |
-|---|---|---|
-| O que move à mão | `so101_leader` | **teleop** |
-| O que segue | `so101_follower` | **robot** |
+| Braço            | Nome no LeRobot  | Designação no LeLab |
+| ---------------- | ---------------- | ------------------- |
+| O que move à mão | `so101_leader`   | **teleop**          |
+| O que segue      | `so101_follower` | **robot**           |
 
 Calibre primeiro o leader. Trocá-los é a razão habitual para um braço acabado de calibrar se comportar de forma estranha.
 
@@ -59,12 +59,12 @@ A rotação é guardada por câmara e aplicada à pré-visualização da configu
 
 ## O que é guardado
 
-| Ficheiro | Conteúdo |
-|---|---|
-| `~/.cache/huggingface/lerobot/calibration/teleoperators/so101_leader/*.json` | Perfis do leader |
-| `~/.cache/huggingface/lerobot/calibration/robots/so101_follower/*.json` | Perfis do follower |
-| `~/.cache/huggingface/lerobot/ports/leader_port.txt` | Porta série do leader |
-| `~/.cache/huggingface/lerobot/ports/follower_port.txt` | Porta série do follower |
+| Ficheiro                                                                     | Conteúdo                |
+| ---------------------------------------------------------------------------- | ----------------------- |
+| `~/.cache/huggingface/lerobot/calibration/teleoperators/so101_leader/*.json` | Perfis do leader        |
+| `~/.cache/huggingface/lerobot/calibration/robots/so101_follower/*.json`      | Perfis do follower      |
+| `~/.cache/huggingface/lerobot/ports/leader_port.txt`                         | Porta série do leader   |
+| `~/.cache/huggingface/lerobot/ports/follower_port.txt`                       | Porta série do follower |
 
 Estes ficheiros ficam em `~/.cache/`, por isso as ferramentas de limpeza de cache podem eliminá-los. Se um braço calibrado voltar a pedir calibração, verifique aqui — ver [Resolução de problemas](07-troubleshooting.md).
 

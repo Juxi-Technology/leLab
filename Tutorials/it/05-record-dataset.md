@@ -11,12 +11,12 @@ Un dataset è una raccolta di **episodi**, ognuno una singola dimostrazione dell
 
 Apri la scheda **Recording** e compila:
 
-| Campo | Cosa inserire |
-|---|---|
+| Campo                            | Cosa inserire                                                                                                                            |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | **Nome del dataset** (`repo_id`) | `your-name/task-name`, es. `juxi/pick-up-the-cube`. La parte `name/` deve essere il tuo nome utente Hugging Face se prevedi di caricarlo |
-| **Descrizione dell'attività** | Una frase, es. `pick up the cube and drop it in the box`. È il testo su cui la policy è condizionata |
-| **Episodes** | Quante dimostrazioni — vedi sotto |
-| **Telecamere** | Quali telecamere configurate includere, e a quale risoluzione e frame rate |
+| **Descrizione dell'attività**    | Una frase, es. `pick up the cube and drop it in the box`. È il testo su cui la policy è condizionata                                     |
+| **Episodes**                     | Quante dimostrazioni — vedi sotto                                                                                                        |
+| **Telecamere**                   | Quali telecamere configurate includere, e a quale risoluzione e frame rate                                                               |
 
 ### Quanti episodi
 
@@ -26,10 +26,10 @@ La coerenza conta più della quantità: la stessa posizione di partenza, la stes
 
 ## Durante la registrazione
 
-| Tasto | Azione |
-|---|---|
+| Tasto         | Azione                                            |
+| ------------- | ------------------------------------------------- |
 | `SPACE` o `→` | Termina l'episodio corrente, inizia il successivo |
-| `DEL` o `←` | Scarta l'episodio appena registrato e rifallo |
+| `DEL` o `←`   | Scarta l'episodio appena registrato e rifallo     |
 
 La scheda mostra un contatore di episodi e un contatore di sessione.
 

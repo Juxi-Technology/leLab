@@ -11,22 +11,22 @@ O treinamento transforma o dataset em uma **policy** — um modelo que mapeia im
 
 Abra a aba **Training** e escolha:
 
-| Escolha | Observações |
-|---|---|
-| **Dataset** | Um dataset local, ou um do Hub |
-| **Tipo de policy** | **ACT** costuma ser a primeira escolha para um único braço. Diffusion Policy, SmolVLA e a família π₀ também estão disponíveis |
-| **Onde executar** | Esta máquina, ou um job na nuvem da Hugging Face |
-| **Duração do treinamento** | Número de passos. Acompanhe a loss em vez de presumir que mais é melhor |
+| Escolha                    | Observações                                                                                                                   |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| **Dataset**                | Um dataset local, ou um do Hub                                                                                                |
+| **Tipo de policy**         | **ACT** costuma ser a primeira escolha para um único braço. Diffusion Policy, SmolVLA e a família π₀ também estão disponíveis |
+| **Onde executar**          | Esta máquina, ou um job na nuvem da Hugging Face                                                                              |
+| **Duração do treinamento** | Número de passos. Acompanhe a loss em vez de presumir que mais é melhor                                                       |
 
 A aba transmite o log de treinamento e mostra os checkpoints conforme são gravados.
 
 ### Local ou nuvem
 
-| | Local | Job na nuvem da Hugging Face |
-|---|---|---|
-| Precisa | De uma GPU nesta máquina | De uma conta da Hugging Face com acesso |
-| Velocidade | Depende da sua GPU | Máquina fixa, escolhida por job |
-| Melhor para | Datasets pequenos, experimentação | Execuções mais longas |
+|             | Local                             | Job na nuvem da Hugging Face            |
+| ----------- | --------------------------------- | --------------------------------------- |
+| Precisa     | De uma GPU nesta máquina          | De uma conta da Hugging Face com acesso |
+| Velocidade  | Depende da sua GPU                | Máquina fixa, escolhida por job         |
+| Melhor para | Datasets pequenos, experimentação | Execuções mais longas                   |
 
 A opção de nuvem é o motivo pelo qual um notebook basta para o resto do fluxo de trabalho: gravar localmente, treinar remotamente.
 

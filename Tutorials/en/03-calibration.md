@@ -23,10 +23,10 @@ Then **log out and back in**. Without this, LeLab finds the arm but every read f
 
 ## Which arm is which
 
-| Arm | LeRobot name | LeLab calls it |
-|---|---|---|
-| The one you move by hand | `so101_leader` | **teleop** |
-| The one that follows | `so101_follower` | **robot** |
+| Arm                      | LeRobot name     | LeLab calls it |
+| ------------------------ | ---------------- | -------------- |
+| The one you move by hand | `so101_leader`   | **teleop**     |
+| The one that follows     | `so101_follower` | **robot**      |
 
 Calibrate the leader first. Mixing the two up is the usual reason a freshly calibrated arm behaves strangely.
 
@@ -59,12 +59,12 @@ Rotation is saved per camera and applied to the setup preview, the teleoperation
 
 ## What gets saved
 
-| File | Contents |
-|---|---|
-| `~/.cache/huggingface/lerobot/calibration/teleoperators/so101_leader/*.json` | Leader profiles |
-| `~/.cache/huggingface/lerobot/calibration/robots/so101_follower/*.json` | Follower profiles |
-| `~/.cache/huggingface/lerobot/ports/leader_port.txt` | Leader serial port |
-| `~/.cache/huggingface/lerobot/ports/follower_port.txt` | Follower serial port |
+| File                                                                         | Contents             |
+| ---------------------------------------------------------------------------- | -------------------- |
+| `~/.cache/huggingface/lerobot/calibration/teleoperators/so101_leader/*.json` | Leader profiles      |
+| `~/.cache/huggingface/lerobot/calibration/robots/so101_follower/*.json`      | Follower profiles    |
+| `~/.cache/huggingface/lerobot/ports/leader_port.txt`                         | Leader serial port   |
+| `~/.cache/huggingface/lerobot/ports/follower_port.txt`                       | Follower serial port |
 
 These live under `~/.cache/`, so cache-cleanup tools can delete them. If a calibrated arm asks to be calibrated again, check here — see [Troubleshooting](07-troubleshooting.md).
 
